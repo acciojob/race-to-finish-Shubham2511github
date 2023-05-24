@@ -11,7 +11,7 @@ for (let i = 0; i < 5; i++) {
       resolve(`Promise ${i + 1} resolved after ${randomTime / 1000} seconds.`);
     }, randomTime);
   });
-window.promesses.push(promise);
+promises.push(promise);
 }
 
 // Use Promise.any to wait for the first promise to resolve
